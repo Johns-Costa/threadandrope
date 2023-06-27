@@ -57,3 +57,9 @@
 #menu li:hover {
     transform: scale(1.2);
 }
+
+#profile-pic {
+    width: 25%;
+    margin: 25px 50px;
+    border-radius: 50%;
+}
