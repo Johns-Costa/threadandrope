@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-header {
+* {
     margin: 0;
+    padding: 0;
+    border: none;
 }
 
-h1 {
+/*headings and logo*/
+
+header {
+
+    background-color: #ccc3b9;
+}
+
+#logo {
     font-family: Pacifico, sans-serif;
-    font-size: 400;
-    background-color: #FFA07A;
-    padding: 10px;
+    float: left;
+    font-size: 300;
 }
