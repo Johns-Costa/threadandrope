@@ -63,3 +63,34 @@
     margin: 25px 50px;
     border-radius: 50%;
 }
+
+
+
+#hero {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-weight: bolder;
+    width: 100%;
+}
+
+#about-us {
+    color: white;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 25%;
+    height: 400px;
+    background-color: lightgray;
+    border-radius: 5%;
+
+}
