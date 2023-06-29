@@ -60,8 +60,9 @@
 
 #profile-pic {
     width: 100%;
+    height: 500px;
     margin: 0;
-    border-radius: 50%;
+
 }
 
 /* hero and motto*/
@@ -96,6 +97,22 @@
 
 #hero-pic {
     width: 25%;
-    margin: 40px 50px;
-    opacity: 0.75;
+    margin: 0 20px;
+    opacity: 0.9;
 }
+
+/*About Us*/
+
+#about-us {
+    background-color: lightgray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+#about-us h2 {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
