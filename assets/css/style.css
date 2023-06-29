@@ -107,7 +107,7 @@
     background-color: lightgray;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 100px 80px;
+    padding: 60px 100px 0;
     text-align: center;
 }
 
@@ -116,3 +116,7 @@
     font-size: 50px;
 }
 
+#about-us p {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
