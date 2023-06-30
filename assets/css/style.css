@@ -6,6 +6,8 @@
     border: none;
 }
 
+
+
 /*headings and logo*/
 
 
@@ -122,6 +124,14 @@
 }
 
 /*Our products*/
+.products {
+    background-color: #e3d9cf;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
 
 #our-products {
     display: flex;
@@ -130,25 +140,34 @@
     padding: 0;
     width: 100%;
     justify-content: space-between;
-    background-color: #ccc3b9;
+    background-color: #e3d9cf;
     align-items: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+#our-products h3 {
+    width: 100%;
+    padding: 10px 0 20px;
 }
 
 .wall-hangers {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    padding: 10px 0 10px 50px;
+    padding: 10px 25px 10px 25px;
     width: 45%;
+    border-right: solid white;
 }
+
 
 .plant-hangers {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    padding: 10px 50px 10px 0;
+    padding: 10px 25px 10px 25px;
     width: 45%;
 }
 
