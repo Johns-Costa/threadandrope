@@ -4,9 +4,16 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: #e3d9cf;
 }
 
-
+hr {
+    border-top: 10px dotted white;
+    background-color: #e3d9cf;
+    width: 10%;
+    margin: auto;
+    padding-bottom: 40px;
+}
 
 /*headings and logo*/
 
@@ -129,7 +136,7 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 50px 0;
+    padding-bottom: 50px;
     font-size: 50px;
 }
 
@@ -137,7 +144,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 0 0 30px;
     width: 100%;
     justify-content: space-between;
     background-color: #e3d9cf;
@@ -150,7 +157,7 @@
 
 #our-products h3 {
     width: 100%;
-    padding: 10px 0 20px;
+    padding: 10px 0px 20px;
 }
 
 .wall-hangers {
