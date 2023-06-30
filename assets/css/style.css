@@ -86,7 +86,7 @@
     width: 40%;
     height: auto;
     margin: 20px 80px;
-    background-color: rgba(211, 211, 211, 0.862);
+    background-color: #e3d9cfd4;
     border-radius: 10%;
     font-size: 100%;
     font-family: Pacifico,
@@ -104,7 +104,7 @@
 /*About Us*/
 
 #about-us {
-    background-color: lightgray;
+    background-color: #e3d9cf;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px 100px 0;
@@ -123,21 +123,41 @@
 
 /*Our products*/
 
+#our-products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ccc3b9;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
 .wall-hangers {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 10px 0 10px 50px;
     width: 45%;
 }
 
+.plant-hangers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px 50px 10px 0;
+    width: 45%;
+}
 
 .photo {
-    max-width: 31.333%;
+    max-width: 30%;
     padding: 10px 10px;
 }
 
 .photo img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
