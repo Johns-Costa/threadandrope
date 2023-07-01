@@ -202,6 +202,11 @@ footer p {
     background-color: #ccc3b9;
     margin: 0;
     text-align: center;
+    color: white;
+}
+
+footer p a {
+    color: white;
 }
 
 .social-networks {
