@@ -41,43 +41,63 @@
     <main>
         <section>
             <div id="hero">
-                <div id="hero-pic">
-                    <img src="./assets/images/profile.jpg" alt="Profile picture" id="profile-pic">
-                </div>
-                <div id="moto">
-                    <h2>Macrame Hangers Made by Hand with Love!</h2>
-                </div>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="order-form">
+                    <h2>Order you hanger!</h2>
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" required class="text-input">
+
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" required class="text-input">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required class="text-input">
+
+                    <label for="hang">Hanger Name <span id="describe">(Describe if you choose Stylized)</span></label>
+                    <input id="hang" name="hanger_name" type="text" required class="text-input">
+
+                    <label for="wall">Wall hanger</label>
+                    <input type="radio" id="wall" name="running_preference" value="wall" required>
+                    <label for="plant">Plant hanger</label>
+                    <input type="radio" id="plant" name="running_preference" value="plant">
+                    <label for="style">Stylized</label>
+                    <input type="radio" id="style" name="running_preference" value="style">
+
+                    <input class="order-button" type="submit" value="Order">
+                </form>
             </div>
         </section>
 
-    <footer>
-        <div>
-            <ul class="social-networks">
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
-        <p>
-            Copyright &copy;
-            <a href="https://github.com/Johns-Costa" target="_blank" rel="noopener noreferrer">João Costa</a>
-            2023
-        </p>
-    </footer>
+        <footer>
+            <div>
+                <ul class="social-networks">
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener"
+                            aria-label="Visit our YouTube page (opens in a new tab)"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <p>
+                Copyright &copy;
+                <a href="https://github.com/Johns-Costa" target="_blank" rel="noopener noreferrer">João Costa</a>
+                2023
+            </p>
+        </footer>
 </body>
 <!-- font awesome script  -->
 <script src="https://kit.fontawesome.com/ee66e0a866.js" crossorigin="anonymous"></script>
