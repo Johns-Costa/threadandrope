@@ -275,7 +275,7 @@ footer p a {
     background-color: rgba(96, 95, 95, 0.55);
     max-width: 400px;
     position: absolute;
-    left: 30%;
+    left: 35%;
     padding: 30px;
     border-radius: 10%;
 }
@@ -323,4 +323,10 @@ footer p a {
 
 #describe {
     margin-left: 10px;
+}
+
+#home-button {
+
+    padding: 10px 32px 10px 32px;
+    margin: 0 auto;
 }
