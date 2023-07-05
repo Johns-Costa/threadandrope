@@ -216,7 +216,6 @@ h3 {
     padding: 10px 25px 10px 25px;
     width: 45%;
     justify-content: center
-        /* border-right: solid white; */
 }
 
 
@@ -380,4 +379,64 @@ footer p a {
 
     padding: 10px 32px 10px 32px;
     margin: 0 auto;
+}
+
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    #menu {
+        /* When on medium sized screens, we center it by evenly distributing empty space around items */
+        justify-content: space-around;
+    }
+
+    #hero {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        background-image: url("../images/background-macrame.jpg");
+        background-repeat: no-repeat;
+        background-position: 0 20%;
+        background-size: cover;
+    }
+
+    #hero-pic {
+        width: 35%;
+        margin: 0 20px;
+    }
+
+    #our-products {
+        justify-content: center;
+    }
+
+    .wall-hangers {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 10px 25px 10px 25px;
+        width: 60%;
+        justify-content: center
+    }
+
+
+    .plant-hangers {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 10px 25px 10px 25px;
+        width: 60%;
+        justify-content: center
+    }
+}
+
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    #menu ul {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
 }
