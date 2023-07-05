@@ -8,6 +8,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 hr {
     border-top: 8px dotted white;
     background-color: #e3d9cf;
@@ -109,6 +123,18 @@ h3 {
     background-size: cover;
 }
 
+#bg {
+    background-image: url("../images/background-macrame.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 320px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #moto {
     color: white;
     width: 40%;
@@ -176,6 +202,7 @@ h3 {
 #our-products h3 {
     width: 100%;
     padding: 10px 0px 20px;
+    text-align: center;
 }
 
 .wall-hangers {
@@ -184,7 +211,8 @@ h3 {
     margin: 0;
     padding: 10px 25px 10px 25px;
     width: 45%;
-    border-right: solid white;
+    justify-content: center
+        /* border-right: solid white; */
 }
 
 
@@ -194,6 +222,7 @@ h3 {
     margin: 0;
     padding: 10px 25px 10px 25px;
     width: 45%;
+    justify-content: center
 }
 
 .photo {
@@ -247,7 +276,7 @@ h3 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 220px;
     background-color: #ccc3b9;
     margin: 0;
 
@@ -259,6 +288,11 @@ footer p {
     text-align: center;
     color: white;
     padding-bottom: 40px;
+    /* height: 100%; */
+}
+
+footer div {
+    /* height: 100%; */
 }
 
 footer p a {
@@ -283,12 +317,12 @@ footer p a {
 /*Order form*/
 
 .order-form {
-    margin: 0 20% 0 0;
+    margin: 0 auto;
     color: #fff;
     background-color: rgba(96, 95, 95, 0.55);
     max-width: 400px;
-    position: absolute;
-    left: 35%;
+    /* position: absolute; */
+    /* left: 35%; */
     padding: 30px;
     border-radius: 10%;
 }
