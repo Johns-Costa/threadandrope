@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 hr {
