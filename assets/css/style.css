@@ -24,11 +24,15 @@ main {
 
 hr {
     border-top: 8px dotted white;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
     background-color: #e3d9cf;
     width: 10%;
     margin: auto;
     padding: 10px 0 20px;
     border-width: 100%;
+
 }
 
 .break-line {
