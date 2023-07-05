@@ -140,11 +140,11 @@ h3 {
 }
 
 #moto {
-    color: white;
+    color: #8c857d;
     width: 40%;
     height: auto;
     margin: 20px 80px;
-    background-color: #e3d9cfd4;
+    background-color: #e3d9cf;
     border-radius: 10%;
     font-size: 100%;
     font-family: Bad Script,
@@ -162,7 +162,7 @@ h3 {
 
 #about-us {
     background-color: #e3d9cf;
-    color: white;
+    color: #6d7975;
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px 100px 0;
     text-align: center;
@@ -291,12 +291,9 @@ footer p {
     text-align: center;
     color: white;
     padding-bottom: 40px;
-    /* height: 100%; */
+
 }
 
-footer div {
-    /* height: 100%; */
-}
 
 footer p a {
     color: white;
