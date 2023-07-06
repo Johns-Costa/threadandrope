@@ -272,7 +272,29 @@ h3 {
 .text {
     color: white;
     font-size: 15px;
-    padding: 10px 20px;
+    padding: 50px 10px 20px;
+}
+
+.text2 {
+    color: white;
+    font-size: 15px;
+    padding: 0 10px 20px;
+}
+
+.button1 {
+    margin-top: 0;
+    border-radius: 10%;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(96, 95, 95, 0.6);
+    color: #fafafa;
+    display: block;
+}
+
+.button1:hover {
+    background-color: #fafafa;
+    color: #ccc3b9;
 }
 
 /* footer */
@@ -733,8 +755,30 @@ footer p a {
 
     .text {
         color: white;
+        font-size: 9px;
+        padding: 10px 0 0;
+    }
+
+    .text2 {
+        color: white;
+        font-size: 9px;
+        padding: 0;
+    }
+
+    .button1 {
+        margin-top: 5px;
+        border-radius: 10%;
+        padding: 2px 5px;
+        text-align: center;
         font-size: 10px;
-        padding: 10px 20px;
+        background-color: rgba(96, 95, 95, 0.6);
+        color: #fafafa;
+        display: block;
+    }
+
+    .button1:hover {
+        background-color: #fafafa;
+        color: #ccc3b9;
     }
 
 }
