@@ -258,6 +258,7 @@ h3 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+
 }
 
 .photo:hover .hanger-img {
@@ -382,6 +383,187 @@ footer p a {
 
 @media all and (max-width: 873px) {
 
+    #enable-link1 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link1:target {
+        display: block;
+
+
+    }
+
+    #enable-link2 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link2:target {
+        display: block;
+
+
+    }
+
+    #enable-link3 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link3:target {
+        display: block;
+
+
+    }
+
+    #enable-link4 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link4:target {
+        display: block;
+
+
+    }
+
+    #enable-link5 {
+        display: none;
+
+        text-decoration: none;
+        hei
+    }
+
+    #enable-link5:target {
+        display: block;
+
+
+    }
+
+    #enable-link6 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link6:target {
+        display: block;
+
+
+    }
+
+    #enable-link7 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link7:target {
+        display: block;
+
+
+    }
+
+    #enable-link8 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link8:target {
+        display: block;
+
+
+    }
+
+    #enable-link9 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link9:target {
+        display: block;
+
+
+    }
+
+    #enable-link10 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link10:target {
+        display: block;
+
+
+    }
+
+    #enable-link11 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link11:target {
+        display: block;
+
+
+    }
+
+    #enable-link12 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link12:target {
+        display: block;
+
+
+    }
+
+    #enable-link13 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link13:target {
+        display: block;
+
+
+    }
+
+    #enable-link14 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link14:target {
+        display: block;
+
+
+    }
+
+    #enable-link15 {
+        display: none;
+
+        text-decoration: none;
+    }
+
+    #enable-link15:target {
+        display: block;
+
+
+    }
+
     h1,
     h2,
     h3 {
@@ -476,6 +658,10 @@ footer p a {
         justify-content: center
     }
 
+    .disable-link {
+        pointer-events: none;
+    }
+
 }
 
 
@@ -488,8 +674,6 @@ footer p a {
         font-family: Bad Script, Arial, Helvetica, sans-serif;
         font-size: 100%;
     }
-
-
 
     #menu {
         display: flex;
@@ -544,6 +728,7 @@ footer p a {
         padding: 25px;
         font-size: 25px;
     }
+
 
 
     .text {
