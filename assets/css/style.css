@@ -124,7 +124,7 @@ h3 {
     background-position: 0 20%;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 320px);
+    height: calc(150vh - 320px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,12 +320,11 @@ footer p a {
 .order-form {
     margin: 0 auto;
     color: #fff;
-    background-color: rgba(96, 95, 95, 0.55);
+    background-color: rgba(96, 95, 95, 0.6);
     max-width: 400px;
-    /* position: absolute; */
-    /* left: 35%; */
     padding: 30px;
     border-radius: 10%;
+
 }
 
 .order-form>h2 {
@@ -387,20 +386,6 @@ footer p a {
         justify-content: space-around;
     }
 
-    #hero {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 600px;
-        background-image: url("../images/background-macrame.jpg");
-        background-repeat: no-repeat;
-        background-position: 0 20%;
-        background-size: cover;
-    }
-
     #moto {
         color: #6d7975;
         width: 25%;
@@ -446,12 +431,18 @@ footer p a {
 
 
 /* Small screens */
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     #menu ul {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: column;
     }
 
+    #logo {
+        font-family: Bad Script, Arial, Helvetica, sans-serif;
+        font-size: 150%;
+        margin-left: 30px;
+        height: 80px;
+    }
 
     #moto {
         color: #6d7975;
@@ -480,5 +471,10 @@ footer p a {
         width: 100%;
     }
 
+    .text {
+        color: white;
+        font-size: 10px;
+        padding: 10px 20px;
+    }
 
 }
