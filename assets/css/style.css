@@ -389,38 +389,6 @@ footer p a {
         font-size: 120%;
     }
 
-    #about-us {
-        background-color: #e3d9cf;
-        color: #6d7975;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 60px 50px 0;
-        text-align: center;
-    }
-
-    #about-us h2 {
-        padding-bottom: 30px;
-        font-size: 30px;
-    }
-
-    #about-us p {
-        padding-bottom: 20px;
-        font-size: 15px;
-    }
-
-    #products {
-        background-color: #e3d9cf;
-        color: white;
-        text-align: center;
-        padding: 30px;
-        font-size: 30px;
-    }
-
-
-
-
-
-
-
     #menu {
         justify-content: space-around;
     }
@@ -459,6 +427,32 @@ footer p a {
 
     }
 
+    #about-us {
+        background-color: #e3d9cf;
+        color: #6d7975;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 60px 50px 0;
+        text-align: center;
+    }
+
+    #about-us h2 {
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+
+    #about-us p {
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    #products {
+        background-color: #e3d9cf;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        font-size: 30px;
+    }
+
     #our-products {
         justify-content: center;
     }
@@ -480,17 +474,6 @@ footer p a {
         padding: 10px 25px 10px 25px;
         width: 100%;
         justify-content: center
-    }
-
-    #photo {
-        transition: transform 0.25s ease;
-        cursor: zoom-in;
-    }
-
-    #photo:active {
-        -webkit-transform: scale(2);
-        transform: scale(2);
-        cursor: zoom-out;
     }
 
 }
