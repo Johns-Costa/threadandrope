@@ -179,7 +179,7 @@ h3 {
 /*Our products*/
 #products {
     background-color: #e3d9cf;
-    color: white;
+    color: #6d7975;
     text-align: center;
     padding: 50px;
     font-size: 50px;
@@ -197,7 +197,7 @@ h3 {
     align-items: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: white;
+    color: #6d7975;
     font-size: 20px;
 }
 
@@ -651,7 +651,7 @@ footer p a {
 
     #products {
         background-color: #e3d9cf;
-        color: white;
+        color: #6d7975;
         text-align: center;
         padding: 30px;
         font-size: 30px;
@@ -745,7 +745,7 @@ footer p a {
 
     #products {
         background-color: #e3d9cf;
-        color: white;
+        color: #6d7975;
         text-align: center;
         padding: 25px;
         font-size: 25px;
