@@ -115,7 +115,23 @@ h3 {
     background-repeat: no-repeat;
     background-position: 0 20%;
     background-size: cover;
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
 }
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: translate(0, -25px);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
 
 #bg {
     background-image: url("../images/background-macrame.jpg");
@@ -137,6 +153,8 @@ h3 {
 
 }
 
+
+
 #moto {
     color: #6d7975;
     width: 25%;
@@ -154,6 +172,7 @@ h3 {
 #hero-pic {
     width: 25%;
     margin: 0 20px;
+
 }
 
 /*About Us*/
