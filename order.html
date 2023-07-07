@@ -19,21 +19,21 @@
 
 
         <nav id="menu">
-            <a id="logo" href="index.html">
+            <a id="logo" href="index.html" aria-label="go to home">
                 <h1>Thread and Rope</h1>
             </a>
 
             <ul>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html" class="active" aria-label="go to home">Home</a>
                 </li>
-                <li><a href="index.html#about-us">About Us</a>
-                </li>
-                <li>
-                    <a href="index.html#products">Our Products</a>
+                <li><a href="index.html#about-us" aria-label="go to about us section">About Us</a>
                 </li>
                 <li>
-                    <a href="order.html">Order</a>
+                    <a href="index.html#products" aria-label="go to about us section">Our Products</a>
+                </li>
+                <li>
+                    <a href="order.html" aria-label="go to order page">Order</a>
                 </li>
             </ul>
         </nav>
@@ -43,25 +43,30 @@
             <form method="get" action="thankyou.html" class="order-form">
                 <h2>Order you hanger!</h2>
                 <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" required class="text-input">
+                <input id="fname" name="first_name" type="text" required class="text-input"
+                    aria-label="write first name">
 
                 <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" required class="text-input">
+                <input id="lname" name="last_name" type="text" required class="text-input" aria-label="write last name">
 
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" required class="text-input">
+                <input type="email" id="email" name="email_address" required class="text-input"
+                    aria-label="write email adress">
 
                 <label for="hang">Hanger Name <span id="describe">(Describe if you choose Stylized)</span></label>
-                <input id="hang" name="hanger_name" type="text" required class="text-input">
+                <input id="hang" name="hanger_name" type="text" required class="text-input"
+                    aria-label="write the name of the product you chose (describe if costumized)">
 
-                <label for="wall">Wall hanger</label>
-                <input type="radio" id="wall" name="hanging-type" value="wall" required>
+                <label for="wall">Wall hanging</label>
+                <input type="radio" id="wall" name="hanging-type" value="wall" required
+                    aria-label="wall hanging (option)">
                 <label for="plant">Plant hanger</label>
-                <input type="radio" id="plant" name="hanging-type" value="plant">
-                <label for="style">Stylized</label>
-                <input type="radio" id="style" name="hanging-type" value="style">
+                <input type="radio" id="plant" name="hanging-type" value="plant" aria-label="plant hanger (option)">
+                <label for="style">Costumized</label>
+                <input type="radio" id="style" name="hanging-type" value="style" aria-label="costumized (option)">
 
-                <input class="order-button" type="submit" value="Order">
+                <input class="order-button" type="submit" value="Order"
+                    aria-label="order button (goes to thank you page)">
             </form>
         </div>
     </main>
@@ -92,7 +97,8 @@
         </div>
         <p>
             Copyright &copy;
-            <a href="https://github.com/Johns-Costa" target="_blank" rel="noopener noreferrer">João Costa</a>
+            <a href="https://github.com/Johns-Costa" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit the desingner github page (opens in a new tab)">João Costa</a>
             2023
         </p>
     </footer>
