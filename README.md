@@ -104,3 +104,16 @@ Here the parents can get required information about the school, become familiar 
   ![Footer](assets/images/footer.png)
 
 ---
+- #### Order page
+
+  - This page has am Order form:
+    - All text input fields are customized.
+    - The radio buttons are customized as well to look the same way in every browser.
+    - The submit button is animated on hover.
+  - The page is responsive and look good on all common screen sizes.
+  - Submitting the form leads to the hidden response page that contains thank you message.
+
+  ![Contact page](assets/images/contact-page.png)
+  ![Response page](assets/images/response-page.png)
+
+---
