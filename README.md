@@ -79,9 +79,10 @@ Here the parents can get required information about the school, become familiar 
     ![About us section](assets/images/about-us-section.png)
 
 ---
+
 - ##### Our Products
 
-  - This sections contains images of the different products the company sells 
+  - This sections contains images of the different products the company sells
   - It is devided into two columns (shown horizontally on desktop and vertically on mobile):
     - Wall hangings
     - Plant hangers
@@ -90,12 +91,11 @@ Here the parents can get required information about the school, become familiar 
     - hanging price.
     - order button, that leads to the order form when pressed.
 
- 
-
   ![Our Products](assets/images/our-products.png)
   ![Our Products mobile](assets/images/our-products-mobile.png)
 
 ---
+
 - ##### Footer
 
   - Footer contains social media links that open in a new tab.
@@ -104,6 +104,7 @@ Here the parents can get required information about the school, become familiar 
   ![Footer](assets/images/footer.png)
 
 ---
+
 - #### Order page
 
   - This page has am Order form:
@@ -113,7 +114,7 @@ Here the parents can get required information about the school, become familiar 
   - The page is responsive and look good on all common screen sizes.
   - Submitting the form leads to the hidden thank you response page that contains "thank you" message.
 
-  ![Contact page](assets/images/contact-page.png)
+  ![Contact page](assets/images/order-page.png)
   ![Response page](assets/images/thankyou-page.png)
 
 ---
