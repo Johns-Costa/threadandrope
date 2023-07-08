@@ -18,3 +18,35 @@ Here the parents can get required information about the school, become familiar 
 - Google fonts
 
 ---
+## User stories
+
+- As a first time visitor, I want to understand of the website, so i can know about the products produced and see their potential.
+- As a first time visitor, I want to be able to easily navigate through the website, so I can find the information I am looking for.
+- As a first time visitor, I want to see the information about the each individual product and its price.
+- As a user, I want the products to be clearly visible in the products section.
+- As a user, I want to be able to be directed to a purchase form in order to make ease to order products.
+- As a mobile device and tablet user, I want the website to be responsive, so I can use my phone or tablet make purchases.
+---
+
+## Features
+
+### Home page
+
+- ##### Navigation
+
+  - Positioned at the top of the page.
+  - Contains logo of the macrame company at the left corner.
+  - At the right side there are navigation links:
+    - Home - leads to the home page.
+    - About us - leads to the about us section.
+    - Our products - leads to the our products section.
+    - Order - leads to the order form page.
+  - The links have animated hover effect.
+  - The navigation is clear and easy to understand for the user.
+  - The navigation bar is responsive and appears in form of a stack menu on mobile devices.
+
+  ![NavBar desktop](assets/images/nav-bar.png)
+  ![NavBar tablet] (assets/images/nav-bar-tablet.png)
+  ![NavBar mobile](assets/images/nav-bar-mobile.png)
+
+---
