@@ -79,3 +79,28 @@ Here the parents can get required information about the school, become familiar 
     ![About us section](assets/images/about-us-section.png)
 
 ---
+- ##### Our Products
+
+  - This sections contains images of the different products the company sells 
+  - It is devided into two columns (shown horizontally on desktop and vertically on mobile):
+    - Wall hangings
+    - Plant hangers
+  - When hovered (or pressed on mobile version) on each image it shows:
+    - hanging name.
+    - hanging price.
+    - order button, that leads to the order form when pressed.
+
+ 
+
+  ![Our Products](assets/images/our-products.png)
+  ![Our Products mobile](assets/images/our-products-mobile.png)
+
+---
+- ##### Footer
+
+  - Footer contains social media links that open in a new tab.
+  - Under the social media links there is a copyright sign with my github link.
+
+  ![Footer](assets/images/footer.png)
+
+---
