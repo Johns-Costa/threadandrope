@@ -107,7 +107,7 @@ Here the parents can get required information about the school, become familiar 
 
 - #### Order page
 
-  - This page has am Order form:
+  - This page has an Order form:
     - All text input fields are customized.
     - The radio buttons are customized as well to look the same way in every browser.
     - The submit button is animated on hover.
