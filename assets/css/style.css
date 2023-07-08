@@ -113,7 +113,7 @@ h3 {
     height: 650px;
     background-image: url("../images/background-macrame.jpg");
     background-repeat: no-repeat;
-    background-position: 0 20%;
+    background-position: 45% 15%;
     background-size: cover;
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -465,20 +465,20 @@ footer p a {
         text-decoration: none;
     }
 
-    #enable-link1,
-    #enable-link2,
-    #enable-link3,
-    #enable-link4,
-    #enable-link5,
-    #enable-link6,
-    #enable-link7,
-    #enable-link8,
-    #enable-link9,
-    #enable-link10,
-    #enable-link11,
-    #enable-link12,
-    #enable-link13,
-    #enable-link14,
+    #enable-link1:target,
+    #enable-link2:target,
+    #enable-link3:target,
+    #enable-link4:target,
+    #enable-link5:target,
+    #enable-link6:target,
+    #enable-link7:target,
+    #enable-link8:target,
+    #enable-link9:target,
+    #enable-link10:target,
+    #enable-link11:target,
+    #enable-link12:target,
+    #enable-link13:target,
+    #enable-link14:target,
     #enable-link15:target {
         display: block;
 
@@ -507,7 +507,7 @@ footer p a {
         height: 600px;
         background-image: url("../images/background-macrame.jpg");
         background-repeat: no-repeat;
-        background-position: 0 20%;
+        background-position: 45% 15%;
         background-size: cover;
     }
 
