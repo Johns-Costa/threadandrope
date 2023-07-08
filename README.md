@@ -18,6 +18,7 @@ Here the parents can get required information about the school, become familiar 
 - Google fonts
 
 ---
+
 ## User stories
 
 - As a first time visitor, I want to understand of the website, so i can know about the products produced and see their potential.
@@ -26,6 +27,7 @@ Here the parents can get required information about the school, become familiar 
 - As a user, I want the products to be clearly visible in the products section.
 - As a user, I want to be able to be directed to a purchase form in order to make ease to order products.
 - As a mobile device and tablet user, I want the website to be responsive, so I can use my phone or tablet make purchases.
+
 ---
 
 ## Features
@@ -46,7 +48,7 @@ Here the parents can get required information about the school, become familiar 
   - The navigation bar is responsive and appears in form of a stack menu on mobile devices.
 
   ![NavBar desktop](assets/images/nav-bar.png)
-  ![NavBar tablet] (assets/images/nav-bar-tablet.png)
+  ![NavBar tablet](assets/images/nav-bar-tablet.png)
   ![NavBar mobile](assets/images/nav-bar-mobile.png)
 
 ---
