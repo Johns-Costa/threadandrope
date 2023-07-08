@@ -63,9 +63,10 @@ Here the parents can get required information about the school, become familiar 
   - Hero section shows the side of the screen:
 
     - It shows the potential of the work that can be done by the macrame creator.
-      ![Hero section](assets/images/hero-section.png)
 
   - The profile picture and the moto align in the center when on mobile phone or tablet
+
+  ![Hero section](assets/images/hero-section.png)
 
   ![Hero section mobile](assets/images/hero-section-mobile.png)
 
