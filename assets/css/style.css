@@ -136,10 +136,10 @@ h3 {
 #bg {
     background-image: url("../images/background-macrame.jpg");
     background-repeat: no-repeat;
-    background-position: 45% 30%;
+    background-position: 45% 15%;
     background-size: cover;
     width: 100%;
-    height: calc(150vh - 320px);
+    height: calc(100vh - 320px);
     display: flex;
     justify-content: center;
     align-items: center;
