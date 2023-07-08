@@ -136,7 +136,7 @@ h3 {
 #bg {
     background-image: url("../images/background-macrame.jpg");
     background-repeat: no-repeat;
-    background-position: 0 20%;
+    background-position: 45% 30%;
     background-size: cover;
     width: 100%;
     height: calc(150vh - 320px);
@@ -290,22 +290,22 @@ h3 {
 
 .text {
     color: white;
-    font-size: 15px;
-    padding: 50px 10px 20px;
+    font-size: 60%;
+    padding: 10% 0 20%;
 }
 
 .text2 {
     color: white;
-    font-size: 15px;
-    padding: 0 10px 20px;
+    font-size: 70%;
+    padding: 0 0 15%;
 }
 
 .button1 {
     margin-top: 0;
     border-radius: 10%;
-    padding: 10px 15px 10px 15px;
+    padding: 5% 5%;
     text-align: center;
-    font-size: 15px;
+    font-size: 70%;
     background-color: rgba(96, 95, 95, 0.6);
     color: #fafafa;
     display: block;
@@ -417,6 +417,9 @@ footer p a {
     margin: 0 auto;
 }
 
+#thank-you {
+    text-align: center;
+}
 
 /* Medium screens */
 
