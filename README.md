@@ -127,11 +127,13 @@ Here the parents can get required information about the school, become familiar 
 ### Bugs
 
 - ##### Solved bugs
-  - I used viewheight units at the contact page at first and found out that on mobile devices when you click into the text input field and the keyboard appears, it squished all the page and made it look ugly.
+  - I used viewheight units at the order page at first and found out that on devices the window on the browser had a small height, the form would be cut
   - I fixed it by using the css property min-height, that prevents the page to be squished on all screens.
   ***
-  - Another bug appeared in the landscape mode on mobile devices in the Meet Our Staff section. Teacher cards looked broken because it tried to show the section using media query breakpoint for small desktop screens.
-  - I fixed it by adding another breakpoint specifically for landscape mode on mobile devices.
+  - I had a lot of back and forward to make the images on the "our products" to show a hover message when on desktop mode and only show a message when pressed on mobile devices that use touch screen.
+  - I fixed it by desabeling the hover and enabeling the text to show when pressed.
   ***
+  - After fixing the previous issue I noticed that the the page would scroll up to the text area instead cutting part of the image that was just pressed
+  - I fixed it by using the css property scroll-margin-top, which makes the scroll finish before the actual achor tag.
 - ##### Unsolved bugs
   - None.
