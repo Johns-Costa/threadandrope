@@ -118,3 +118,20 @@ Here the parents can get required information about the school, become familiar 
   ![Response page](assets/images/thankyou-page.png)
 
 ---
+### Testing
+
+- I tested that the website works in different browsers: Chrome, Firefox, Safari.
+- I used devtools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it supposed to on all standard screen sizes.
+- I tested all the links and confirmed that all of them work and lead where they suppose to lead.
+
+### Bugs
+
+- ##### Solved bugs
+  - I used viewheight units at the contact page at first and found out that on mobile devices when you click into the text input field and the keyboard appears, it squished all the page and made it look ugly.
+  - I fixed it by using the css property min-height, that prevents the page to be squished on all screens.
+  ***
+  - Another bug appeared in the landscape mode on mobile devices in the Meet Our Staff section. Teacher cards looked broken because it tried to show the section using media query breakpoint for small desktop screens.
+  - I fixed it by adding another breakpoint specifically for landscape mode on mobile devices.
+  ***
+- ##### Unsolved bugs
+  - None.
