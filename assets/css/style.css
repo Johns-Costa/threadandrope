@@ -260,15 +260,6 @@ h3 {
 }
 
 
-.hanger-img {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -280,9 +271,6 @@ h3 {
     text-align: center;
 }
 
-.photo:hover .hanger-img {
-    opacity: 0.3;
-}
 
 .photo:hover .middle {
     opacity: 1;
@@ -580,9 +568,7 @@ footer p a {
         justify-content: center
     }
 
-    .disable-link {
-        pointer-events: none;
-    }
+
 
 }
 

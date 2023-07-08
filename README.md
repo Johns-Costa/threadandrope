@@ -118,11 +118,14 @@ Here the parents can get required information about the school, become familiar 
   ![Response page](assets/images/thankyou-page.png)
 
 ---
+
 ### Testing
 
 - I tested that the website works in different browsers: Chrome, Firefox, Safari.
 - I used devtools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it supposed to on all standard screen sizes.
 - I tested all the links and confirmed that all of them work and lead where they suppose to lead.
+
+---
 
 ### Bugs
 
@@ -137,3 +140,17 @@ Here the parents can get required information about the school, become familiar 
   - I fixed it by using the css property scroll-margin-top, which makes the scroll finish before the actual achor tag.
 - ##### Unsolved bugs
   - None.
+
+---
+
+  ### Validator testing
+
+- ##### HTML
+  - No errors or warnings were found when passing through the official W3C validator.
+- ##### CSS
+  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+- ##### Accessibility and performance
+  - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    ![Performance score](assets/images/lighthouse-metrics2.png)
+
+---
