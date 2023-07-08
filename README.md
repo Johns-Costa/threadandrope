@@ -150,7 +150,29 @@ Here the parents can get required information about the school, become familiar 
 - ##### CSS
   - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
 - ##### Accessibility and performance
-  - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-    ![Performance score](assets/images/lighthouse-metrics2.png)
+  - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable. Both in desktop (first image) and in mobile mode (second image).
+    ![Performance score](assets/images/lighthouse-score.png)
+    ![Performance score](assets/images/lighthouse-score-mobile.png)
 
 ---
+
+### Deployment
+
+- The website was deployed to GitHub pages and can be accessed by the link: [Thread and Rope](https://johns-costa.github.io/threadandrope).
+
+---
+
+### Credits
+
+- ##### Content
+  - The code to make social media links and the form template were partially from the Code Institute, Love Running project, and modified to fit my website.
+
+- ##### Media
+  - All the images for the website were taken by me.
+
+---
+
+#### Wireframes
+
+![Wireframes](assets/images/wireframe-main.png)
+![Wireframes order](assets/images/wireframe-order.png)
