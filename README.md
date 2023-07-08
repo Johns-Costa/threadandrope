@@ -52,3 +52,27 @@ Here the parents can get required information about the school, become familiar 
   ![NavBar mobile](assets/images/nav-bar-mobile.png)
 
 ---
+
+- ##### Hero section
+  - Hero section have an animated background image.
+  - Hero section shows the moto text block the right side of the screen:
+    - It tells the user what the company is all about.
+
+  - Hero section shows the side of the screen:
+    - It shows the potential of the work that can be done by the macrame creator. 
+      ![Hero section](assets/images/hero-section.png)
+  
+  - The profile picture and the moto align in the center when on mobile phone or tablet
+
+   ![Hero section mobile](assets/images/hero-section.png)
+
+
+---
+
+- ##### About Us section
+  - About us section provides information about the macrame company.
+  - About us section tells the user how the products are made.
+  - About us incentivises the user to buy the products.
+    ![About us section](assets/images/about-us-section.png)
+
+---
