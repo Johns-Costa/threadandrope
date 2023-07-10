@@ -274,6 +274,10 @@ h3 {
     opacity: 1;
 }
 
+.photo:hover>a {
+    opacity: 0.6;
+}
+
 .text {
     color: white;
     font-size: 60%;
@@ -324,13 +328,13 @@ h3 {
 
 footer {
     height: 220px;
-    background-color: #eed8ca;
+    background-color: #8f6e56;
     margin: 0;
 
 }
 
 footer p {
-    background-color: #eed8ca;
+    background-color: #8f6e56;
     margin: 0;
     text-align: center;
     color: white;
@@ -396,7 +400,7 @@ footer p a {
     text-align: center;
     font-size: 100%;
     background-color: #eed8ca;
-    color: #fafafa;
+    color: #495b55;
     display: block;
 }
 
@@ -466,11 +470,9 @@ footer p a {
     #enable-link13:target,
     #enable-link14:target,
     #enable-link15:target {
-        display: block;
-
+        display: block;  
 
     }
-
 
     h1,
     h2,
@@ -498,7 +500,7 @@ footer p a {
     }
 
     #moto {
-        color: #6d7975;
+        color: #495b55;
         width: 25%;
         height: auto;
         margin: auto;
@@ -519,7 +521,7 @@ footer p a {
 
     #about-us {
         background-color: #eed8ca;
-        color: #6d7975;
+        color: #495b55;
         font-family: Arial, Helvetica, sans-serif;
         padding: 60px 50px 0;
         text-align: center;
@@ -537,7 +539,7 @@ footer p a {
 
     #products {
         background-color: #eed8ca;
-        color: #6d7975;
+        color: #495b55;
         text-align: center;
         padding: 30px;
         font-size: 30px;
@@ -608,7 +610,7 @@ footer p a {
     }
 
     #moto {
-        color: #6d7975;
+        color: #495b55;
         width: 25%;
         height: auto;
         margin: 40px 80px;
@@ -629,7 +631,7 @@ footer p a {
 
     #products {
         background-color: #eed8ca;
-        color: #6d7975;
+        color: #495b55;
         text-align: center;
         padding: 25px;
         font-size: 25px;
