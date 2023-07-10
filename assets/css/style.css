@@ -23,7 +23,7 @@ main {
 }
 
 hr {
-    border-top: 8px dotted white;
+    border-top: 8px dotted #495b55;
     border-bottom: 0;
     border-left: 0;
     border-right: 0;
