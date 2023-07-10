@@ -66,7 +66,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #ccc3b9;
+    background-color: #8f6e56;
     height: 100px;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -178,8 +178,8 @@ h3 {
 /*About Us*/
 
 #about-us {
-    background-color: #e3d9cf;
-    color: #6d7975;
+    background-color: #eed8ca;
+    color: #495b55;
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px 100px 0;
     text-align: center;
@@ -197,8 +197,8 @@ h3 {
 
 /*Our products*/
 #products {
-    background-color: #e3d9cf;
-    color: #6d7975;
+    background-color: #eed8ca;
+    color: #495b55;
     text-align: center;
     padding: 50px;
     font-size: 50px;
@@ -212,11 +212,11 @@ h3 {
     padding: 0 0 30px;
     width: 100%;
     justify-content: space-between;
-    background-color: #e3d9cf;
+    background-color: #eed8ca;
     align-items: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: #6d7975;
+    color: #495b55;
     font-size: 20px;
 }
 
@@ -299,7 +299,7 @@ h3 {
 
 .button1:hover {
     background-color: #fafafa;
-    color: #ccc3b9;
+    color: #eed8ca;
 }
 
 #enable-link1,
@@ -324,13 +324,13 @@ h3 {
 
 footer {
     height: 220px;
-    background-color: #ccc3b9;
+    background-color: #eed8ca;
     margin: 0;
 
 }
 
 footer p {
-    background-color: #ccc3b9;
+    background-color: #eed8ca;
     margin: 0;
     text-align: center;
     color: white;
@@ -386,7 +386,7 @@ footer p a {
 }
 
 .text-input:hover {
-    border-color: #ccc3b9;
+    border-color: #eed8ca;
 }
 
 .order-button {
@@ -395,14 +395,14 @@ footer p a {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #ccc3b9;
+    background-color: #eed8ca;
     color: #fafafa;
     display: block;
 }
 
 .order-button:hover {
     background-color: #fafafa;
-    color: #ccc3b9;
+    color: #eed8ca;
 }
 
 #wall,
@@ -586,7 +586,7 @@ footer p a {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #ccc3b9;
+        background-color: #eed8ca;
         height: 200px;
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -662,7 +662,7 @@ footer p a {
 
     .button1:hover {
         background-color: #fafafa;
-        color: #ccc3b9;
+        color: #eed8ca;
     }
 
 }
