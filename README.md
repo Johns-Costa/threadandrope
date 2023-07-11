@@ -212,7 +212,7 @@ Here the parents can get required information about the school, become familiar 
 
 - ##### Content
 
-  - The code to make social media links and the form template were partially from the Code Institute, Love Running project, and modified to fit my website.
+  - The code to make social media links and the form template were partially from the [Code Institute](https://johns-costa.github.io/love-running/), Love Running project, and modified to fit my website.
 
   - The chefron to go back to top was adapted from my mentors [Aleksei Konovalov](https://github.com/lexach91) portfolio 1 page.
 
