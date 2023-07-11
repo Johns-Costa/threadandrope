@@ -99,7 +99,9 @@ h3 {
     transform: scale(1.2);
 }
 
-
+.active {
+    border-bottom: 1px solid white;
+}
 
 /* hero and motto*/
 
@@ -366,20 +368,20 @@ footer p a {
 }
 
 #back-to-top {
-  position: absolute;
-  top: 150vh;
-  right: 0;
-  bottom: 40px;
-  width: 2em;
-  pointer-events: none;
-  z-index: 10;
-  font-size: 150%;
+    position: absolute;
+    top: 150vh;
+    right: 0;
+    bottom: 40px;
+    width: 2em;
+    pointer-events: none;
+    z-index: 10;
+    font-size: 150%;
 }
 
 #back-to-top a {
-  position: sticky;
-  pointer-events: all;
-  top: calc(100vh - 5rem);
+    position: sticky;
+    pointer-events: all;
+    top: calc(100vh - 5rem);
 }
 
 
@@ -491,7 +493,7 @@ footer p a {
     #enable-link13:target,
     #enable-link14:target,
     #enable-link15:target {
-        display: block;  
+        display: block;
 
     }
 
