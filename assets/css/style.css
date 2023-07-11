@@ -407,6 +407,13 @@ footer p a {
     margin-bottom: 20px;
 }
 
+#fname,
+#lname,
+#email,
+#hang {
+    padding-left: 10px;
+}
+
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -637,6 +644,10 @@ footer p a {
     #menu ul {
         flex-direction: column;
         text-align: center;
+    }
+
+    #hero {
+        height: 400px;
     }
 
     #logo {
