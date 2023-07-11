@@ -213,7 +213,7 @@ Here the parents can get required information about the school, become familiar 
 
   - The code to make social media links and the form template were partially from the Code Institute, Love Running project, and modified to fit my website.
 
-  - The chefron to go back to top was adapted from my mentors [Aleksei Konovalov](https://github.com/lexach91) portfolio 1 page
+  - The chefron to go back to top was adapted from my mentors [Aleksei Konovalov](https://github.com/lexach91) portfolio 1 page.
 
 - ##### Media
   - All the images for the website were taken by me.

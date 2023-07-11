@@ -511,6 +511,7 @@ footer p a {
 
     #menu {
         justify-content: space-around;
+        height: 110px;
     }
 
     #hero {
@@ -525,6 +526,12 @@ footer p a {
         background-repeat: no-repeat;
         background-position: 45% 15%;
         background-size: cover;
+    }
+
+    #menu li {
+        margin: 0 20px;
+        transition: transform 400ms ease-in-out;
+        padding-bottom: 10px;
     }
 
     #moto {
