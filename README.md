@@ -48,9 +48,9 @@ Here the parents can get required information about the school, become familiar 
   - The navigation is clear and easy to understand for the user.
   - The navigation bar is responsive and appears in form of a stack menu on mobile devices.
 
-  ![NavBar desktop](assets/images/nav-bar.png)
-  ![NavBar tablet](assets/images/nav-bar-tablet.png)
-  ![NavBar mobile](assets/images/nav-bar-mobile.png)
+  ![NavBar desktop](assets/images/navbar-desktop.png)
+  ![NavBar tablet](assets/images/navbar-tablet.png)
+  ![NavBar mobile](assets/images/navbar-mobile.png)
 
 ---
 
@@ -67,9 +67,9 @@ Here the parents can get required information about the school, become familiar 
 
   - The profile picture and the moto align in the center when on mobile phone or tablet
 
-  ![Hero section](assets/images/hero-section.png)
+  ![Hero section](assets/images/hero-desktop.png)
 
-  ![Hero section mobile](assets/images/hero-section-mobile.png)
+  ![Hero section mobile](assets/images/hero-mobile.png)
 
 ---
 
@@ -77,7 +77,8 @@ Here the parents can get required information about the school, become familiar 
   - About us section provides information about the macrame company.
   - About us section tells the user how the products are made.
   - About us incentivises the user to buy the products.
-    ![About us section](assets/images/about-us-section.png)
+    ![About us section](assets/images/about-us-desktop.png)
+    ![About us section mobile](assets/images/about-us-mobile.png)
 
 ---
 
@@ -92,7 +93,7 @@ Here the parents can get required information about the school, become familiar 
     - hanging price.
     - order button, that leads to the order form when pressed.
 
-  ![Our Products](assets/images/our-products.png)
+  ![Our Products](assets/images/our-products-desktop.png)
   ![Our Products mobile](assets/images/our-products-mobile.png)
 
 ---
@@ -113,7 +114,7 @@ Here the parents can get required information about the school, become familiar 
     - The radio buttons are customized as well to look the same way in every browser.
     - The submit button is animated on hover.
   - The page is responsive and look good on all common screen sizes.
-  - Submitting the form leads to the hidden thank you response page that contains "thank you" message.
+  - Submitting the form leads to the hidden thank you response page that contains a "thank you" message.
 
   ![Contact page](assets/images/order-page.png)
   ![Response page](assets/images/thankyou-page.png)
