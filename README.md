@@ -12,10 +12,10 @@ Here the parents can get required information about the school, become familiar 
 
 ## Technologies used
 
-- HTML
-- CSS
-- Font Awesome icons
-- Google fonts
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Font Awesome icons](https://fontawesome.com/)
+- [Google fonts](https://fonts.google.com/)
 
 ---
 
@@ -23,10 +23,10 @@ Here the parents can get required information about the school, become familiar 
 
 - As a first time visitor, I want to understand of the website, so i can know about the products produced and see their potential.
 - As a first time visitor, I want to be able to easily navigate through the website, so I can find the information I am looking for.
-- As a first time visitor, I want to see the information about the each individual product and its price.
-- As a user, I want the products to be clearly visible in the products section.
-- As a user, I want to be able to be directed to a purchase form in order to make ease to order products.
-- As a mobile device and tablet user, I want the website to be responsive, so I can use my phone or tablet make purchases.
+- As a first time visitor, I want to see the information about the each individual product and its price, so I can get atracted to the producs and decide quickly what to buy.
+- As a user, I want the products to be clearly visible in the products section, so I can know my options and what is new.
+- As a user, I want to be able to be directed to a purchase form in order when pressing the product, so I don't loose time going through the website.
+- As a mobile device and tablet user, I want the website to be responsive, so I can use my phone or tablet to make purchases.
 
 ---
 
@@ -123,7 +123,7 @@ Here the parents can get required information about the school, become familiar 
 
 - I tested that the website works in different browsers: Chrome, Firefox, Safari.
 - I used devtools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it supposed to on all standard screen sizes.
-- I tested all the links and confirmed that all of them work and lead where they suppose to lead.
+- I manualy tested all the links and confirmed that all of them work and lead where they suppose to lead:
 
 ---
 
@@ -143,7 +143,7 @@ Here the parents can get required information about the school, become familiar 
 
 ---
 
-  ### Validator testing
+### Validator testing
 
 - ##### HTML
   - No errors or warnings were found when passing through the official W3C validator.
@@ -165,6 +165,7 @@ Here the parents can get required information about the school, become familiar 
 ### Credits
 
 - ##### Content
+
   - The code to make social media links and the form template were partially from the Code Institute, Love Running project, and modified to fit my website.
 
 - ##### Media
