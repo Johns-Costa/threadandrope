@@ -140,6 +140,7 @@ Here the parents can get required information about the school, become familiar 
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Home page | | | | | |
+| Back to top - chevron up button| Click on the "chevron up" button | The user is redirected to the top of the page | Yes | Yes | - |
 | Order button | Click on the "ORDER" button in each product picture | The user is redirected to the Order form page | Yes | Yes | There are 15 order buttons in the our products section, all work the same way|
 | Order page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
