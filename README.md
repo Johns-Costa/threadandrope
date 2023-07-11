@@ -44,6 +44,7 @@ Here the parents can get required information about the school, become familiar 
     - Our products - leads to the our products section.
     - Order - leads to the order form page.
   - The links have animated hover effect.
+  - The link of the page that the user currently on is underlined
   - The navigation is clear and easy to understand for the user.
   - The navigation bar is responsive and appears in form of a stack menu on mobile devices.
 
@@ -127,30 +128,30 @@ Here the parents can get required information about the school, become familiar 
 
 #### Manual testing
 
-| feature | action | expected result | tested | passed | comments |
-| --- | --- | --- | --- | --- | --- |
-| Navbar | | | | | |
-| Home | Click on the "HOME" link | The user is redirected to the main page | Yes | Yes | - |
-| About us | Click on the "ABOUT US" link | The user is redirected to the About us section | Yes | Yes | - |
-| Our products | Click on the "OUR PRODUCTS" link | The user is redirected to the Our products section | Yes | Yes | - |
-| Order | Click on the "ORDER" link | The user is redirected to the Order form page | Yes | Yes | - |
-| Footer | | | | | |
-| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
-| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
-| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
-| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-| Home page | | | | | |
-| Back to top - chevron up button| Click on the "chevron up" button | The user is redirected to the top of the page | Yes | Yes | - |
-| Order button | Click on the "ORDER" button in each product picture | The user is redirected to the Order form page | Yes | Yes | There are 15 order buttons in the our products section, all work the same way|
-| Order page | | | | | |
-| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Hanger Name (Describe if you choose Stylized) | Enter the hanger name | The hanger name is entered | Yes | Yes | If user doesn't enter the hanger name, the error message appears |
-| Wall hanging, Plant hanger and Costumized  checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | If the user doesn't check one of the boxes, the error message appears |
-| "Order" button | Click on the "Order" button | The user is redirected to the thank you page | Yes | Yes | - |
-| Thank you page | | | | | |
-| Back to Home page | Click on the "Back to Home page" button | The user is redirected to the home page | Yes | Yes | - |
+| feature                                            | action                                              | expected result                                    | tested | passed | comments                                                                                                              |
+| -------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------- | ------ | ------ | --------------------------------------------------------------------------------------------------------------------- |
+| Navbar                                             |                                                     |                                                    |        |        |                                                                                                                       |
+| Home                                               | Click on the "HOME" link                            | The user is redirected to the main page            | Yes    | Yes    | -                                                                                                                     |
+| About us                                           | Click on the "ABOUT US" link                        | The user is redirected to the About us section     | Yes    | Yes    | -                                                                                                                     |
+| Our products                                       | Click on the "OUR PRODUCTS" link                    | The user is redirected to the Our products section | Yes    | Yes    | -                                                                                                                     |
+| Order                                              | Click on the "ORDER" link                           | The user is redirected to the Order form page      | Yes    | Yes    | -                                                                                                                     |
+| Footer                                             |                                                     |                                                    |        |        |                                                                                                                       |
+| Facebook icon in the footer                        | Click on the Facebook icon                          | The user is redirected to the Facebook page        | Yes    | Yes    | -                                                                                                                     |
+| Twitter icon in the footer                         | Click on the Twitter icon                           | The user is redirected to the Twitter page         | Yes    | Yes    | -                                                                                                                     |
+| YouTube icon in the footer                         | Click on the YouTube icon                           | The user is redirected to the YouTube page         | Yes    | Yes    | -                                                                                                                     |
+| Instagram icon in the footer                       | Click on the Instagram icon                         | The user is redirected to the Instagram page       | Yes    | Yes    | -                                                                                                                     |
+| Home page                                          |                                                     |                                                    |        |        |                                                                                                                       |
+| Back to top - chevron up button                    | Click on the "chevron up" button                    | The user is redirected to the top of the page      | Yes    | Yes    | -                                                                                                                     |
+| Order button                                       | Click on the "ORDER" button in each product picture | The user is redirected to the Order form page      | Yes    | Yes    | There are 15 order buttons in the our products section, all work the same way                                         |
+| Order page                                         |                                                     |                                                    |        |        |                                                                                                                       |
+| First name input                                   | Enter the first name                                | The first name is entered                          | Yes    | Yes    | If user doesn't enter the first name, the error message appears                                                       |
+| Last name input                                    | Enter the last name                                 | The last name is entered                           | Yes    | Yes    | If user doesn't enter the last name, the error message appears                                                        |
+| Email input                                        | Enter the email                                     | The email is entered                               | Yes    | Yes    | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Hanger Name (Describe if you choose Stylized)      | Enter the hanger name                               | The hanger name is entered                         | Yes    | Yes    | If user doesn't enter the hanger name, the error message appears                                                      |
+| Wall hanging, Plant hanger and Costumized checkbox | Click on the checkbox                               | The checkbox is checked                            | Yes    | Yes    | If the user doesn't check one of the boxes, the error message appears                                                 |
+| "Order" button                                     | Click on the "Order" button                         | The user is redirected to the thank you page       | Yes    | Yes    | -                                                                                                                     |
+| Thank you page                                     |                                                     |                                                    |        |        |                                                                                                                       |
+| Back to Home page                                  | Click on the "Back to Home page" button             | The user is redirected to the home page            | Yes    | Yes    | -                                                                                                                     |
 
 ---
 
@@ -174,12 +175,30 @@ Here the parents can get required information about the school, become familiar 
 
 - ##### HTML
   - No errors or warnings were found when passing through the official W3C validator.
+    ![HTML-home](assets/images/Html-home-validator.png)
+    ![HTML-order](assets/images/HTML-order-validator.png)
+    ![HTML-thankyou](assets/images/HTML-thankyou-validator.png)
 - ##### CSS
   - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+    ![Style](assets/images/Style-validator.png)
 - ##### Accessibility and performance
+
   - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable. Both in desktop (first image) and in mobile mode (second image).
-    ![Performance score](assets/images/lighthouse-score-desktop.png)
-    ![Performance score](assets/images/lighthouse-score-mobile.png)
+
+    ###### Home page
+
+    ![Performance score Desktop](assets/images/index-desktop-performance.png)
+    ![Performance score Mobile](assets/images/index-mobile-performance.png)
+
+    ###### Order page
+
+    ![Performance score Desktop](assets/images/order-desktop-performance.png)
+    ![Performance score Mobile](assets/images/order-mobile-performance.png)
+
+    ###### Thankyou page
+
+    ![Performance score Desktop](assets/images/thankyou-desktop-performance.png)
+    ![Performance score Mobile](assets/images/thankyou-mobile-performance.png)
 
 ---
 
