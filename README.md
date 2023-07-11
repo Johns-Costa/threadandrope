@@ -140,14 +140,14 @@ Here the parents can get required information about the school, become familiar 
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Home page | | | | | |
-| Order | Click on the "ORDER" link in each products picture | The user is redirected to the Order form page | Yes | Yes | - |
+| Order button | Click on the "ORDER" button in each product picture | The user is redirected to the Order form page | Yes | Yes | There are 15 order buttons in the our products section, all work the same way|
 | Order page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
 | Hanger Name (Describe if you choose Stylized) | Enter the hanger name | The hanger name is entered | Yes | Yes | If user doesn't enter the hanger name, the error message appears |
 | Wall hanging, Plant hanger and Costumized  checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | If the user doesn't check one of the boxes, the error message appears |
-| "Submit" button | Click on the "Submit" button | The user is redirected to the thank you page | Yes | Yes | - |
+| "Order" button | Click on the "Order" button | The user is redirected to the thank you page | Yes | Yes | - |
 | Thank you page | | | | | |
 | Back to Home page | Click on the "Back to Home page" button | The user is redirected to the home page | Yes | Yes | - |
 
